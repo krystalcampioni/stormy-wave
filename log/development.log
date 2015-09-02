@@ -12847,3 +12847,27 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-b83fd06db1f7737685b8d3c92917f8fd88c02ed6401abb43431e93b1bfc4e7e8.js?body=1" for ::1 at 2015-09-02 15:05:44 -0700
+
+
+Started GET "/" for ::1 at 2015-09-02 15:22:25 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 38ms (Views: 36.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-02 15:23:07 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 60ms (Views: 59.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-84f951aff084ea0338c7e0a06fefe9ec872c2f3fb7c133460816374f2d6b5ebc.css?body=1" for ::1 at 2015-09-02 15:23:07 -0700
+
+
+Started GET "/assets/application.self-b83fd06db1f7737685b8d3c92917f8fd88c02ed6401abb43431e93b1bfc4e7e8.js?body=1" for ::1 at 2015-09-02 15:23:07 -0700
+
+
+Started GET "/test" for ::1 at 2015-09-02 15:23:11 -0700
+Processing by StaticController#test as HTML
+  Rendered static/test.html.haml within layouts/application (1.0ms)
+Completed 200 OK in 30ms (Views: 29.1ms | ActiveRecord: 0.0ms)
