@@ -12871,3 +12871,9 @@ Started GET "/test" for ::1 at 2015-09-02 15:23:11 -0700
 Processing by StaticController#test as HTML
   Rendered static/test.html.haml within layouts/application (1.0ms)
 Completed 200 OK in 30ms (Views: 29.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for ::1 at 2015-09-02 15:40:00 -0700
+Processing by StaticController#test as HTML
+  Rendered static/test.html.haml within layouts/application (0.6ms)
+Completed 200 OK in 39ms (Views: 38.6ms | ActiveRecord: 0.0ms)
