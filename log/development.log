@@ -12877,3 +12877,30 @@ Started GET "/test" for ::1 at 2015-09-02 15:40:00 -0700
 Processing by StaticController#test as HTML
   Rendered static/test.html.haml within layouts/application (0.6ms)
 Completed 200 OK in 39ms (Views: 38.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-02 15:45:19 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 61ms (Views: 61.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-84f951aff084ea0338c7e0a06fefe9ec872c2f3fb7c133460816374f2d6b5ebc.css?body=1" for ::1 at 2015-09-02 15:45:19 -0700
+
+
+Started GET "/assets/application.self-b83fd06db1f7737685b8d3c92917f8fd88c02ed6401abb43431e93b1bfc4e7e8.js?body=1" for ::1 at 2015-09-02 15:45:19 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-02 15:45:19 -0700
+
+
+Started GET "/assets/responsive.self-d03d6730e1e45268ca1b507fc5164aa2e254123e6123af63199f5537f8bd41bb.css?body=1" for ::1 at 2015-09-02 15:45:19 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-02 15:45:19 -0700
+
+
+Started GET "/assets/application.self-12a6cf777aa6e94c892568a9c496b61a14ff6cb181ef5fbb1ef1c9b0c2a64c1a.css?body=1" for ::1 at 2015-09-02 15:45:19 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-02 15:45:19 -0700
