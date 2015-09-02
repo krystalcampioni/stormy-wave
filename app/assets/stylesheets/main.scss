@@ -1,28 +1,57 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,700,300italic);
 $maincolor: #b80606;
 
 html,
 body {
-    margin:0;
-    padding:0;
+    margin: 0px;
+    padding: 0px;
     height:100%;
+    font-family: 'Open Sans', sans-serif;
 }
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+
 #wrapper {
     min-height:100%;
     position:relative;
 }
 
 #main-content{
-    padding:10px;
     padding-bottom:60px;    /* Height of the footer */
 }
 
 header {
   border-bottom: 1px solid #ebebeb;
+  img {
+    height: 60px;
+  }  
+  ul {
+    color: #fff;
+    float: right;
+    list-style: outside none inline;
+    li {
+      display: inline;
+      padding: 10px;
+    }
+  }
+}
+
+.facebook-login {
+  background: #3477e5 none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  padding: 5px;
+  text-align: center;
 }
 
 #fading {
-  border: 1px solid blue;
-  height: 100px;
   width: 100%;
   position: fixed;
 }
@@ -33,4 +62,11 @@ footer {
     bottom:0;
     width:100%;
     height:60px;            /* Height of the footer */
+}
+
+
+/* Home styles */
+.homebanner {
+  background: image-url("1.jpg");;
+  height: 350px;
 }

@@ -9,7 +9,14 @@
   %body	 
     #wrapper
       %header#fading
-        = link_to image_tag( 'logo.svg'), '/test'
+        .row
+          = link_to image_tag( 'logo.svg'), '/test'
+          %ul
+            %li Home
+            %li Todas as Séries
+            %li 
+              %button.facebook-login
+                Entrar com Facebook
       #main-content
         = yield
       %footer
