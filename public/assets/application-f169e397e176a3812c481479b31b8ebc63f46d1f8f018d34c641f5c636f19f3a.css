@@ -1,0 +1,35 @@
+/* line 1, /Users/krystalcampioni/Documents/repos/myapp/app/assets/stylesheets/main.scss */
+.main {
+  color: red;
+}
+/* line 3, /Users/krystalcampioni/Documents/repos/myapp/app/assets/stylesheets/main.scss */
+.main h1 {
+  border: 1px solid;
+}
+/* Define mobile styles */
+/* max-width 640px, mobile-only styles, use when QAing mobile issues */
+/* min-width 641px, medium screens */
+/* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+/* min-width 1025px, large screens */
+/* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
+/* min-width 1441px, xlarge screens */
+/* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+/* min-width 1921px, xxlarge screens */
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
+
+
