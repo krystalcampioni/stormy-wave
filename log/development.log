@@ -19534,3 +19534,336 @@ Started GET "/assets/search-41f4dabd01c1be22c557c1375f1ebe90835ceac9205df59c9c1d
 
 
 Started GET "/assets/home_banner-3573ab8d28daf9f93db3fdf501ce956e4ff3ab7c7c95aa4f8ba57215c8a0c76b.jpg" for ::1 at 2015-09-03 08:26:39 -0700
+
+
+Started GET "/" for ::1 at 2015-09-03 08:33:34 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (3.8ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error ('nil' is not an ActiveModel-compatible object. It must implement :to_partial_path.):
+     9:   .row
+    10:     .large-12.medium-12.columns
+    11:       %h1 Melhores Séries
+    12:       = render @topshows
+    13:     
+    14:                                     
+    15:                   
+  app/views/welcome/index.html.haml:12:in `_app_views_welcome_index_html_haml___4111251150336175901_70355401134900'
+
+
+  Rendered /Users/krystalcampioni/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.8ms)
+  Rendered /Users/krystalcampioni/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.7ms)
+  Rendered /Users/krystalcampioni/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/krystalcampioni/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (78.1ms)
+  Rendered /Users/krystalcampioni/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/krystalcampioni/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/krystalcampioni/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/krystalcampioni/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/krystalcampioni/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (55.9ms)
+  Rendered /Users/krystalcampioni/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/krystalcampioni/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/krystalcampioni/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (122.4ms)
+
+
+Started GET "/" for fe80::1%lo0 at 2015-09-03 08:35:56 -0700
+
+
+Started GET "/" for fe80::1%lo0 at 2015-09-03 08:35:57 -0700
+
+
+Started GET "/" for fe80::1%lo0 at 2015-09-03 08:35:57 -0700
+
+
+Started GET "/" for fe80::1%lo0 at 2015-09-03 08:35:58 -0700
+
+
+Started GET "/" for ::1 at 2015-09-03 08:36:12 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_topshows.html.haml (3.1ms)
+  Rendered welcome/index.html.haml within layouts/application (9.1ms)
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Indenting at the beginning of the document is illegal.):
+    1:     .large-4.medium-4.columns
+    2:       %div
+    3:         %a{:href => ""}
+    4:           .imageWrapper
+  app/views/welcome/_topshows.html.haml:1
+  app/views/welcome/index.html.haml:12:in `_app_views_welcome_index_html_haml___3012997182104569934_70131039948240'
+
+
+  Rendered /Users/krystalcampioni/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.4ms)
+  Rendered /Users/krystalcampioni/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /Users/krystalcampioni/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/krystalcampioni/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (62.2ms)
+  Rendered /Users/krystalcampioni/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/krystalcampioni/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/krystalcampioni/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/krystalcampioni/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/krystalcampioni/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (52.5ms)
+  Rendered /Users/krystalcampioni/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/krystalcampioni/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/krystalcampioni/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (112.2ms)
+
+
+Started GET "/" for ::1 at 2015-09-03 08:36:37 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_topshows.html.haml (154.3ms)
+  Rendered welcome/index.html.haml within layouts/application (155.4ms)
+Completed 200 OK in 244ms (Views: 243.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation.min.self-2a71afa383d7f11a8c288dbf8f6ca584979e099404b6e5668d78e549ce543f8f.css?body=1" for ::1 at 2015-09-03 08:36:37 -0700
+
+
+Started GET "/assets/responsive.self-d03d6730e1e45268ca1b507fc5164aa2e254123e6123af63199f5537f8bd41bb.css?body=1" for ::1 at 2015-09-03 08:36:37 -0700
+
+
+Started GET "/assets/application.self-12a6cf777aa6e94c892568a9c496b61a14ff6cb181ef5fbb1ef1c9b0c2a64c1a.css?body=1" for ::1 at 2015-09-03 08:36:37 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-03 08:36:37 -0700
+
+
+Started GET "/assets/main.self-8f4aad80f8d381bc989055bbc6778595b72e3d5ffc5352de5bbabeffa71326bc.css?body=1" for ::1 at 2015-09-03 08:36:37 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-03 08:36:37 -0700
+
+
+Started GET "/assets/application.self-b83fd06db1f7737685b8d3c92917f8fd88c02ed6401abb43431e93b1bfc4e7e8.js?body=1" for ::1 at 2015-09-03 08:36:37 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-03 08:36:37 -0700
+
+
+Started GET "/assets/fonts/fontawesome-webfont.woff?v=4.1.0" for ::1 at 2015-09-03 08:36:38 -0700
+
+
+Started GET "/" for fe80::1%lo0 at 2015-09-03 08:36:43 -0700
+
+
+Started GET "/" for fe80::1%lo0 at 2015-09-03 08:36:44 -0700
+
+
+Started GET "/" for ::1 at 2015-09-03 08:36:53 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_topshows.html.haml (120.8ms)
+  Rendered welcome/index.html.haml within layouts/application (130.2ms)
+Completed 200 OK in 243ms (Views: 232.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation.min.self-2a71afa383d7f11a8c288dbf8f6ca584979e099404b6e5668d78e549ce543f8f.css?body=1" for ::1 at 2015-09-03 08:36:53 -0700
+
+
+Started GET "/assets/responsive.self-d03d6730e1e45268ca1b507fc5164aa2e254123e6123af63199f5537f8bd41bb.css?body=1" for ::1 at 2015-09-03 08:36:53 -0700
+
+
+Started GET "/assets/main.self-8f4aad80f8d381bc989055bbc6778595b72e3d5ffc5352de5bbabeffa71326bc.css?body=1" for ::1 at 2015-09-03 08:36:53 -0700
+
+
+Started GET "/assets/application.self-12a6cf777aa6e94c892568a9c496b61a14ff6cb181ef5fbb1ef1c9b0c2a64c1a.css?body=1" for ::1 at 2015-09-03 08:36:53 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-03 08:36:53 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-03 08:36:53 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-03 08:36:53 -0700
+
+
+Started GET "/assets/application.self-b83fd06db1f7737685b8d3c92917f8fd88c02ed6401abb43431e93b1bfc4e7e8.js?body=1" for ::1 at 2015-09-03 08:36:53 -0700
+
+
+Started GET "/" for ::1 at 2015-09-03 08:37:39 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_topshows.html.haml (17.4ms)
+  Rendered welcome/index.html.haml within layouts/application (20.5ms)
+Completed 200 OK in 128ms (Views: 127.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-8f4aad80f8d381bc989055bbc6778595b72e3d5ffc5352de5bbabeffa71326bc.css?body=1" for ::1 at 2015-09-03 08:37:39 -0700
+
+
+Started GET "/assets/foundation.min.self-2a71afa383d7f11a8c288dbf8f6ca584979e099404b6e5668d78e549ce543f8f.css?body=1" for ::1 at 2015-09-03 08:37:39 -0700
+
+
+Started GET "/assets/responsive.self-d03d6730e1e45268ca1b507fc5164aa2e254123e6123af63199f5537f8bd41bb.css?body=1" for ::1 at 2015-09-03 08:37:39 -0700
+
+
+Started GET "/assets/application.self-12a6cf777aa6e94c892568a9c496b61a14ff6cb181ef5fbb1ef1c9b0c2a64c1a.css?body=1" for ::1 at 2015-09-03 08:37:39 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-03 08:37:39 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-03 08:37:39 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-03 08:37:39 -0700
+
+
+Started GET "/assets/application.self-b83fd06db1f7737685b8d3c92917f8fd88c02ed6401abb43431e93b1bfc4e7e8.js?body=1" for ::1 at 2015-09-03 08:37:39 -0700
+
+
+Started GET "/" for ::1 at 2015-09-03 08:38:09 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_topshows.html.haml (2.9ms)
+  Rendered welcome/index.html.haml within layouts/application (5.6ms)
+Completed 200 OK in 68ms (Views: 65.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-8f4aad80f8d381bc989055bbc6778595b72e3d5ffc5352de5bbabeffa71326bc.css?body=1" for ::1 at 2015-09-03 08:38:09 -0700
+
+
+Started GET "/assets/foundation.min.self-2a71afa383d7f11a8c288dbf8f6ca584979e099404b6e5668d78e549ce543f8f.css?body=1" for ::1 at 2015-09-03 08:38:09 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-03 08:38:09 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-03 08:38:09 -0700
+
+
+Started GET "/assets/responsive.self-d03d6730e1e45268ca1b507fc5164aa2e254123e6123af63199f5537f8bd41bb.css?body=1" for ::1 at 2015-09-03 08:38:09 -0700
+
+
+Started GET "/assets/application.self-12a6cf777aa6e94c892568a9c496b61a14ff6cb181ef5fbb1ef1c9b0c2a64c1a.css?body=1" for ::1 at 2015-09-03 08:38:09 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-03 08:38:09 -0700
+
+
+Started GET "/assets/application.self-b83fd06db1f7737685b8d3c92917f8fd88c02ed6401abb43431e93b1bfc4e7e8.js?body=1" for ::1 at 2015-09-03 08:38:09 -0700
+
+
+Started GET "/" for ::1 at 2015-09-03 08:40:47 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_topshows.html.haml (24.7ms)
+  Rendered welcome/index.html.haml within layouts/application (27.4ms)
+Completed 200 OK in 95ms (Views: 94.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation.min.self-2a71afa383d7f11a8c288dbf8f6ca584979e099404b6e5668d78e549ce543f8f.css?body=1" for ::1 at 2015-09-03 08:40:47 -0700
+
+
+Started GET "/assets/responsive.self-d03d6730e1e45268ca1b507fc5164aa2e254123e6123af63199f5537f8bd41bb.css?body=1" for ::1 at 2015-09-03 08:40:47 -0700
+
+
+Started GET "/assets/main.self-8f4aad80f8d381bc989055bbc6778595b72e3d5ffc5352de5bbabeffa71326bc.css?body=1" for ::1 at 2015-09-03 08:40:47 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-03 08:40:47 -0700
+
+
+Started GET "/assets/application.self-12a6cf777aa6e94c892568a9c496b61a14ff6cb181ef5fbb1ef1c9b0c2a64c1a.css?body=1" for ::1 at 2015-09-03 08:40:47 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-03 08:40:47 -0700
+
+
+Started GET "/assets/application.self-b83fd06db1f7737685b8d3c92917f8fd88c02ed6401abb43431e93b1bfc4e7e8.js?body=1" for ::1 at 2015-09-03 08:40:47 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-03 08:40:47 -0700
+
+
+Started GET "/" for ::1 at 2015-09-03 08:41:16 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_topshows.html.haml (8.9ms)
+  Rendered welcome/index.html.haml within layouts/application (10.3ms)
+Completed 200 OK in 674ms (Views: 673.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-335386592e95ee49e8ceb47e3ca8d647fadaea8e77a35b7789e7670cf0a65d15.css?body=1" for ::1 at 2015-09-03 08:41:17 -0700
+
+
+Started GET "/assets/foundation.min.self-2a71afa383d7f11a8c288dbf8f6ca584979e099404b6e5668d78e549ce543f8f.css?body=1" for ::1 at 2015-09-03 08:41:17 -0700
+
+
+Started GET "/assets/responsive.self-d03d6730e1e45268ca1b507fc5164aa2e254123e6123af63199f5537f8bd41bb.css?body=1" for ::1 at 2015-09-03 08:41:17 -0700
+
+
+Started GET "/assets/application.self-12a6cf777aa6e94c892568a9c496b61a14ff6cb181ef5fbb1ef1c9b0c2a64c1a.css?body=1" for ::1 at 2015-09-03 08:41:17 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-03 08:41:17 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-03 08:41:17 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-03 08:41:17 -0700
+
+
+Started GET "/assets/application.self-b83fd06db1f7737685b8d3c92917f8fd88c02ed6401abb43431e93b1bfc4e7e8.js?body=1" for ::1 at 2015-09-03 08:41:17 -0700
+
+
+Started GET "/" for ::1 at 2015-09-03 08:42:40 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_topshows.html.haml (10.5ms)
+  Rendered welcome/_latestreviews.haml (20.4ms)
+  Rendered welcome/index.html.haml within layouts/application (39.6ms)
+Completed 200 OK in 93ms (Views: 92.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/responsive.self-d03d6730e1e45268ca1b507fc5164aa2e254123e6123af63199f5537f8bd41bb.css?body=1" for ::1 at 2015-09-03 08:42:40 -0700
+
+
+Started GET "/assets/foundation.min.self-2a71afa383d7f11a8c288dbf8f6ca584979e099404b6e5668d78e549ce543f8f.css?body=1" for ::1 at 2015-09-03 08:42:40 -0700
+
+
+Started GET "/assets/main.self-335386592e95ee49e8ceb47e3ca8d647fadaea8e77a35b7789e7670cf0a65d15.css?body=1" for ::1 at 2015-09-03 08:42:40 -0700
+
+
+Started GET "/assets/application.self-12a6cf777aa6e94c892568a9c496b61a14ff6cb181ef5fbb1ef1c9b0c2a64c1a.css?body=1" for ::1 at 2015-09-03 08:42:40 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-03 08:42:40 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-03 08:42:40 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-03 08:42:40 -0700
+
+
+Started GET "/assets/application.self-b83fd06db1f7737685b8d3c92917f8fd88c02ed6401abb43431e93b1bfc4e7e8.js?body=1" for ::1 at 2015-09-03 08:42:40 -0700
+
+
+Started GET "/" for ::1 at 2015-09-03 09:52:39 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_topshows.html.haml (15.9ms)
+  Rendered welcome/_latestreviews.haml (11.4ms)
+  Rendered welcome/index.html.haml within layouts/application (33.5ms)
+Completed 200 OK in 115ms (Views: 113.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation.min.self-2a71afa383d7f11a8c288dbf8f6ca584979e099404b6e5668d78e549ce543f8f.css?body=1" for ::1 at 2015-09-03 09:52:39 -0700
+
+
+Started GET "/assets/main.self-335386592e95ee49e8ceb47e3ca8d647fadaea8e77a35b7789e7670cf0a65d15.css?body=1" for ::1 at 2015-09-03 09:52:39 -0700
+
+
+Started GET "/assets/responsive.self-d03d6730e1e45268ca1b507fc5164aa2e254123e6123af63199f5537f8bd41bb.css?body=1" for ::1 at 2015-09-03 09:52:39 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-03 09:52:39 -0700
+
+
+Started GET "/assets/application.self-12a6cf777aa6e94c892568a9c496b61a14ff6cb181ef5fbb1ef1c9b0c2a64c1a.css?body=1" for ::1 at 2015-09-03 09:52:39 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-03 09:52:39 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-03 09:52:39 -0700
+
+
+Started GET "/assets/application.self-b83fd06db1f7737685b8d3c92917f8fd88c02ed6401abb43431e93b1bfc4e7e8.js?body=1" for ::1 at 2015-09-03 09:52:39 -0700
+
+
+Started GET "/assets/fonts/fontawesome-webfont.woff?v=4.1.0" for ::1 at 2015-09-03 09:52:40 -0700
