@@ -1,0 +1,41 @@
+%section#latest-reviews 
+  .small-12.columns
+    .small-6.columns
+      %select#select1{:name => "select1"}
+        %option{:value => "1"} Temporada 1
+        %option{:value => "2"} Temporada 2
+        %option{:value => "3"} Temporada 3
+        %option{:value => "4"} Temporada 4
+    .small-6.columns
+      %select.div-toggler#select2{:name => "select2", "data-target" => ".reviews-box"}
+        %option{:value => "1", "data-show" => ".citrus"} Episódio 1 - Banana
+        %option{:value => "1", "data-show" => ".citrus"} Episódio 2 - Apple
+        %option{:value => "1", "data-show" => ".citrus"} Episódio 3 - Orange
+        %option{:value => "2", "data-show" => ".citrus"} Episódio 1 - Wolf
+        %option{:value => "2", "data-show" => ".citrus"} Episódio 2 - Fox
+        %option{:value => "2", "data-show" => ".citrus"} Episódio 3 - Bear
+        %option{:value => "3", "data-show" => ".citrus"} Episódio 1 - Eagle
+        %option{:value => "3", "data-show" => ".citrus"} Episódio 2 - Hawk
+        %option{:value => "4", "data-show" => ".citrus"} Episódio 3 - BWM
+        %option
+
+    .reviews-box
+      .citrus.hide Citrus is a common term and genus (Citrus) of flowering plants in the rue family, Rutaceae.
+      .pome.hide In botany, a pome (after the Latin word for fruit: pōmum) is a type of fruit produced by flowering plants in the subtribe Malinae of the family Rosaceae.
+    :javascript
+      $('select.div-toggler').change(function(){
+          var target = $(this).data('target');
+          $(target).children().addClass('hide');
+          var show = $("option:selected", this).data('show');
+          $(show).removeClass('hide');
+      });
+      $("#select1").change(function() { 
+      if($(this).data('options') == undefined){
+          /*Taking an array of all options-2 and kind of embedding it on the select1*/
+          $(this).data('options',$('#select2 option').clone());
+          } 
+      var id = $(this).val();
+      var options = $(this).data('options').filter('[value=' + id + ']');
+      $('#select2').html(options);
+      });
+        
