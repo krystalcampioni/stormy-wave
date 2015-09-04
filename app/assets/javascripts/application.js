@@ -14,7 +14,9 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
-  
+
+
+// header background fade  
 $(window).scroll(function () {
     if ($(window).scrollTop() > 100) { 
         $('#fading').css("background", "rgba(0,0,0,0.8)");
@@ -22,4 +24,18 @@ $(window).scroll(function () {
     else{
         $('#fading').css("background", "rgba(0,0,0,0.0)");
     }
+});
+
+//show and hide search
+ $(function() {
+	 
+	$( ".opensearch" ).on( 'click', tapHandler );
+		
+	function tapHandler( event ) {
+    $('.search_field').fadeToggle();
+	  setTimeout(function(){
+		 $('#search').focus().tap();
+		},0);
+	}
+	
 });

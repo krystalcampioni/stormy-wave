@@ -85,6 +85,17 @@ header {
     }
   }
 }
+/*==================================*/
+.opensearch {
+  float: left;
+  .opensearch {
+    color: #fff;
+    padding: 5px;
+  }
+}
+.search_field {
+  float: left;
+}
 
 input[type=search] { 
   background: rgba(0, 0, 0, 0.5) no-repeat scroll right center / 15px auto;  
@@ -94,9 +105,10 @@ input[type=search] {
   cursor: pointer;
   font-size: 15px;
   font-weight: 100;
-  padding: 5px; 
-  background-image: image-url("search.svg");           
+  padding: 5px;         
 }
+
+/*==================================*/
 
 .facebook-login {
   font-family: "Open Sans",sans-serif;

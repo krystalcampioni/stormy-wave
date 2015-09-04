@@ -9,16 +9,19 @@
   %body	 
     #wrapper
       %header#fading
-        .row
-          = link_to image_tag( 'logo.svg'), '/test'
-          %ul
-            %li
-              %input{:name => "s", :results => "5", :type => "search", :placeholder => "Busca"}
-            %li Home
-            %li Todas as Séries
-            %li 
-              %button.facebook-login
-                Entrar com Facebook
+        = link_to image_tag( 'logo.svg'), '/test'
+        %ul
+          %li
+            / %input{:name => "s", :results => "5", :type => "search", :placeholder => "Busca"}
+            .search_field{:style => "display:none;"}
+              %input#search{:name => "search", :placeholder => "Search", :type => "search"}
+            %a.opensearch{"data-icon" => "search", "data-iconpos" => "right", "data-mini" => "false", "data-role" => "button", "data-theme" => "e", :href => "#"} 
+              %i.fa.fa-search
+            
+          %li Todas as Séries
+          %li 
+            %button.facebook-login
+              Entrar com Facebook
       #main-content
         = yield
       %footer
