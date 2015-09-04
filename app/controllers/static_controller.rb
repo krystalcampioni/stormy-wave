@@ -5,7 +5,7 @@
   def test
   end
 
-  def about
+  def allshows
   end
 
   def contact

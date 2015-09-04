@@ -98,6 +98,18 @@ header {
   }
   .facebook-login {   width: 100%;}
 }
+
+.newepisodes::before {
+  background: darken($gold, 25%);
+  color: white;
+  content: "Novos Reviews";
+  margin-left: -12px;
+  margin-top: 3px;
+  padding: 0 66px 0 17px;
+  position: absolute;
+  transform: rotate(-20deg);
+}
+
 /*==================================*/
 .opensearch {
   float: left;
@@ -238,6 +250,10 @@ footer {
   float: left;
   width: 100%;
   h2 { color: #fff; }
+}
+
+#allshows {
+  padding-top: 100px;
 }
 
 #latest-reviews{
