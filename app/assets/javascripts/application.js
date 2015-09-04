@@ -10,6 +10,7 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+//= require modernizr
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
@@ -32,6 +33,7 @@ $(window).scroll(function () {
 	$( ".opensearch" ).on( 'click', tapHandler );
 		
 	function tapHandler( event ) {
+    event.preventDefault();
     $('.search_field').fadeToggle();
 	  setTimeout(function(){
 		 $('#search').focus().tap();
