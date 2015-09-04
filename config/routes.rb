@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   
   get '/', to: 'welcome#index'
   get '/allshows', to: 'static#allshows'
-  get '/contact', to: 'static#contact'
+  get '/singleshow', to: 'static#singleshow'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

@@ -2,7 +2,7 @@
   def home
   end
 
-  def test
+  def singleshow
   end
 
   def allshows

@@ -3,6 +3,7 @@
 
 $maincolor: #b80606;
 $secondary-color: adjust-hue($maincolor, 45deg);
+$tertiary-color: adjust-hue($secondary-color, 45deg);
 $gold: #eed076;
 
 @mixin transition {
@@ -99,7 +100,7 @@ header {
 }
 
 .newepisodes::before {
-  background: darken($gold, 25%);
+  background: darken($tertiary-color, 10%);
   color: white;
   content: "Novos Reviews";
   margin-left: -12px;
