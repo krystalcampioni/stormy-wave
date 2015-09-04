@@ -28,16 +28,16 @@ $(window).scroll(function () {
 });
 
 //show and hide search
- $(function() {
-	 
-	$( ".opensearch" ).on( 'click', tapHandler );
-		
-	function tapHandler( event ) {
-    event.preventDefault();
-    $('.search_field').fadeToggle();
-	  setTimeout(function(){
-		 $('#search').focus().tap();
-		},0);
-	}
-	
-});
+//  $(function() {
+//
+//   $( ".opensearch" ).on( 'click', tapHandler );
+//
+//   function tapHandler( event ) {
+//     event.preventDefault();
+//     $('.search_field').fadeToggle();
+//     setTimeout(function(){
+//      $('#search').focus().tap();
+//     },0);
+//   }
+//
+// });

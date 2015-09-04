@@ -1,14 +1,38 @@
 // Small screens
 @media only screen { } /* Define mobile styles */
 
-@media only screen and (max-width: 40em) { } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+@media only screen and (max-width: 40em) { 
+  header {
+    .push-right { float: none;}
+    text-align: center;
+    img {
+      height: 40px!important;
+    }
+    ul li {
+      width: 50%;
+      float: left;
+    }
+  }
+
+} /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 
 // Medium screens
 @media only screen and (min-width: 40.063em) { } /* min-width 641px, medium screens */
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  header {
+    .small-12 {
+      text-align: center;
+    }
+  }
+  
    #latest-reviews .imageWrapper { height: 170px;}
    .hide-for-medium { display: none;}
+   
+   .facebook-login {
+     float: left;
+
+   }
  } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
 
 // Large screens
