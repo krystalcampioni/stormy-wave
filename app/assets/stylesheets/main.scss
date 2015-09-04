@@ -218,9 +218,16 @@ footer {
   }
 }
 
+.singleshow-banner {
+  background: image-url("singlebanner.jpg") repeat fixed 0 0 / cover ;
+}
 
-.homebanner, .singleshow-banner {
+.homebanner{
   background: image-url("home_banner.jpg") repeat fixed 0 0 / cover ;
+}
+
+.homebanner, .singleshow-banner { 
+  background-size: cover !important; 
   height: auto;
   padding-bottom: 24px;
   box-shadow: 0 50px 100px 0 rgba(0,0,0,0.6) inset;
