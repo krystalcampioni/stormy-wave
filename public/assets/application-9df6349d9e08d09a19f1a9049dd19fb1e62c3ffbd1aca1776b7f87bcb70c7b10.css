@@ -1,0 +1,2790 @@
+meta.foundation-version{font-family:"/5.5.2/"}meta.foundation-mq-small{font-family:"/only screen/";width:0}meta.foundation-mq-small-only{font-family:"/only screen and (max-width: 40em)/";width:0}meta.foundation-mq-medium{font-family:"/only screen and (min-width:40.0625em)/";width:40.0625em}meta.foundation-mq-medium-only{font-family:"/only screen and (min-width:40.0625em) and (max-width:64em)/";width:40.0625em}meta.foundation-mq-large{font-family:"/only screen and (min-width:64.0625em)/";width:64.0625em}meta.foundation-mq-large-only{font-family:"/only screen and (min-width:64.0625em) and (max-width:90em)/";width:64.0625em}meta.foundation-mq-xlarge{font-family:"/only screen and (min-width:90.0625em)/";width:90.0625em}meta.foundation-mq-xlarge-only{font-family:"/only screen and (min-width:90.0625em) and (max-width:120em)/";width:90.0625em}meta.foundation-mq-xxlarge{font-family:"/only screen and (min-width:120.0625em)/";width:120.0625em}meta.foundation-data-attribute-namespace{font-family:false}html,body{height:100%}html{box-sizing:border-box}*,*:before,*:after{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}html,body{font-size:100%}body{background:#fff;color:#222;cursor:auto;font-family:"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;font-style:normal;font-weight:normal;line-height:1.5;margin:0;padding:0;position:relative}a:hover{cursor:pointer}img{max-width:100%;height:auto}img{-ms-interpolation-mode:bicubic}#map_canvas img,#map_canvas embed,#map_canvas object,.map_canvas img,.map_canvas embed,.map_canvas object,.mqa-display img,.mqa-display embed,.mqa-display object{max-width:none !important}.left{float:left !important}.right{float:right !important}.clearfix:before,.clearfix:after{content:" ";display:table}.clearfix:after{clear:both}.hide{display:none}.invisible{visibility:hidden}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}img{display:inline-block;vertical-align:middle}textarea{height:auto;min-height:50px}select{width:100%}.row{margin:0 auto;max-width:62.5em;width:100%}.row:before,.row:after{content:" ";display:table}.row:after{clear:both}.row.collapse>.column,.row.collapse>.columns{padding-left:0;padding-right:0}.row.collapse .row{margin-left:0;margin-right:0}.row .row{margin:0 -0.9375em;max-width:none;width:auto}.row .row:before,.row .row:after{content:" ";display:table}.row .row:after{clear:both}.row .row.collapse{margin:0;max-width:none;width:auto}.row .row.collapse:before,.row .row.collapse:after{content:" ";display:table}.row .row.collapse:after{clear:both}.column,.columns{padding-left:0.9375em;padding-right:0.9375em;width:100%;float:left}.column+.column:last-child,.columns+.column:last-child,.column+.columns:last-child,.columns+.columns:last-child{float:right}.column+.column.end,.columns+.column.end,.column+.columns.end,.columns+.columns.end{float:left}@media only screen{.small-push-0{position:relative;left:0;right:auto}.small-pull-0{position:relative;right:0;left:auto}.small-push-1{position:relative;left:8.33333%;right:auto}.small-pull-1{position:relative;right:8.33333%;left:auto}.small-push-2{position:relative;left:16.66667%;right:auto}.small-pull-2{position:relative;right:16.66667%;left:auto}.small-push-3{position:relative;left:25%;right:auto}.small-pull-3{position:relative;right:25%;left:auto}.small-push-4{position:relative;left:33.33333%;right:auto}.small-pull-4{position:relative;right:33.33333%;left:auto}.small-push-5{position:relative;left:41.66667%;right:auto}.small-pull-5{position:relative;right:41.66667%;left:auto}.small-push-6{position:relative;left:50%;right:auto}.small-pull-6{position:relative;right:50%;left:auto}.small-push-7{position:relative;left:58.33333%;right:auto}.small-pull-7{position:relative;right:58.33333%;left:auto}.small-push-8{position:relative;left:66.66667%;right:auto}.small-pull-8{position:relative;right:66.66667%;left:auto}.small-push-9{position:relative;left:75%;right:auto}.small-pull-9{position:relative;right:75%;left:auto}.small-push-10{position:relative;left:83.33333%;right:auto}.small-pull-10{position:relative;right:83.33333%;left:auto}.small-push-11{position:relative;left:91.66667%;right:auto}.small-pull-11{position:relative;right:91.66667%;left:auto}.column,.columns{position:relative;padding-left:0.9375em;padding-right:0.9375em;float:left}.small-1{width:8.33333%}.small-2{width:16.66667%}.small-3{width:25%}.small-4{width:33.33333%}.small-5{width:41.66667%}.small-6{width:50%}.small-7{width:58.33333%}.small-8{width:66.66667%}.small-9{width:75%}.small-10{width:83.33333%}.small-11{width:91.66667%}.small-12{width:100%}.small-offset-0{margin-left:0 !important}.small-offset-1{margin-left:8.33333% !important}.small-offset-2{margin-left:16.66667% !important}.small-offset-3{margin-left:25% !important}.small-offset-4{margin-left:33.33333% !important}.small-offset-5{margin-left:41.66667% !important}.small-offset-6{margin-left:50% !important}.small-offset-7{margin-left:58.33333% !important}.small-offset-8{margin-left:66.66667% !important}.small-offset-9{margin-left:75% !important}.small-offset-10{margin-left:83.33333% !important}.small-offset-11{margin-left:91.66667% !important}.small-reset-order{float:left;left:auto;margin-left:0;margin-right:0;right:auto}.column.small-centered,.columns.small-centered{margin-left:auto;margin-right:auto;float:none}.column.small-uncentered,.columns.small-uncentered{float:left;margin-left:0;margin-right:0}.column.small-centered:last-child,.columns.small-centered:last-child{float:none}.column.small-uncentered:last-child,.columns.small-uncentered:last-child{float:left}.column.small-uncentered.opposite,.columns.small-uncentered.opposite{float:right}.row.small-collapse>.column,.row.small-collapse>.columns{padding-left:0;padding-right:0}.row.small-collapse .row{margin-left:0;margin-right:0}.row.small-uncollapse>.column,.row.small-uncollapse>.columns{padding-left:0.9375em;padding-right:0.9375em;float:left}}@media only screen and (min-width: 40.0625em){.medium-push-0{position:relative;left:0;right:auto}.medium-pull-0{position:relative;right:0;left:auto}.medium-push-1{position:relative;left:8.33333%;right:auto}.medium-pull-1{position:relative;right:8.33333%;left:auto}.medium-push-2{position:relative;left:16.66667%;right:auto}.medium-pull-2{position:relative;right:16.66667%;left:auto}.medium-push-3{position:relative;left:25%;right:auto}.medium-pull-3{position:relative;right:25%;left:auto}.medium-push-4{position:relative;left:33.33333%;right:auto}.medium-pull-4{position:relative;right:33.33333%;left:auto}.medium-push-5{position:relative;left:41.66667%;right:auto}.medium-pull-5{position:relative;right:41.66667%;left:auto}.medium-push-6{position:relative;left:50%;right:auto}.medium-pull-6{position:relative;right:50%;left:auto}.medium-push-7{position:relative;left:58.33333%;right:auto}.medium-pull-7{position:relative;right:58.33333%;left:auto}.medium-push-8{position:relative;left:66.66667%;right:auto}.medium-pull-8{position:relative;right:66.66667%;left:auto}.medium-push-9{position:relative;left:75%;right:auto}.medium-pull-9{position:relative;right:75%;left:auto}.medium-push-10{position:relative;left:83.33333%;right:auto}.medium-pull-10{position:relative;right:83.33333%;left:auto}.medium-push-11{position:relative;left:91.66667%;right:auto}.medium-pull-11{position:relative;right:91.66667%;left:auto}.column,.columns{position:relative;padding-left:0.9375em;padding-right:0.9375em;float:left}.medium-1{width:8.33333%}.medium-2{width:16.66667%}.medium-3{width:25%}.medium-4{width:33.33333%}.medium-5{width:41.66667%}.medium-6{width:50%}.medium-7{width:58.33333%}.medium-8{width:66.66667%}.medium-9{width:75%}.medium-10{width:83.33333%}.medium-11{width:91.66667%}.medium-12{width:100%}.medium-offset-0{margin-left:0 !important}.medium-offset-1{margin-left:8.33333% !important}.medium-offset-2{margin-left:16.66667% !important}.medium-offset-3{margin-left:25% !important}.medium-offset-4{margin-left:33.33333% !important}.medium-offset-5{margin-left:41.66667% !important}.medium-offset-6{margin-left:50% !important}.medium-offset-7{margin-left:58.33333% !important}.medium-offset-8{margin-left:66.66667% !important}.medium-offset-9{margin-left:75% !important}.medium-offset-10{margin-left:83.33333% !important}.medium-offset-11{margin-left:91.66667% !important}.medium-reset-order{float:left;left:auto;margin-left:0;margin-right:0;right:auto}.column.medium-centered,.columns.medium-centered{margin-left:auto;margin-right:auto;float:none}.column.medium-uncentered,.columns.medium-uncentered{float:left;margin-left:0;margin-right:0}.column.medium-centered:last-child,.columns.medium-centered:last-child{float:none}.column.medium-uncentered:last-child,.columns.medium-uncentered:last-child{float:left}.column.medium-uncentered.opposite,.columns.medium-uncentered.opposite{float:right}.row.medium-collapse>.column,.row.medium-collapse>.columns{padding-left:0;padding-right:0}.row.medium-collapse .row{margin-left:0;margin-right:0}.row.medium-uncollapse>.column,.row.medium-uncollapse>.columns{padding-left:0.9375em;padding-right:0.9375em;float:left}.push-0{position:relative;left:0;right:auto}.pull-0{position:relative;right:0;left:auto}.push-1{position:relative;left:8.33333%;right:auto}.pull-1{position:relative;right:8.33333%;left:auto}.push-2{position:relative;left:16.66667%;right:auto}.pull-2{position:relative;right:16.66667%;left:auto}.push-3{position:relative;left:25%;right:auto}.pull-3{position:relative;right:25%;left:auto}.push-4{position:relative;left:33.33333%;right:auto}.pull-4{position:relative;right:33.33333%;left:auto}.push-5{position:relative;left:41.66667%;right:auto}.pull-5{position:relative;right:41.66667%;left:auto}.push-6{position:relative;left:50%;right:auto}.pull-6{position:relative;right:50%;left:auto}.push-7{position:relative;left:58.33333%;right:auto}.pull-7{position:relative;right:58.33333%;left:auto}.push-8{position:relative;left:66.66667%;right:auto}.pull-8{position:relative;right:66.66667%;left:auto}.push-9{position:relative;left:75%;right:auto}.pull-9{position:relative;right:75%;left:auto}.push-10{position:relative;left:83.33333%;right:auto}.pull-10{position:relative;right:83.33333%;left:auto}.push-11{position:relative;left:91.66667%;right:auto}.pull-11{position:relative;right:91.66667%;left:auto}}@media only screen and (min-width: 64.0625em){.large-push-0{position:relative;left:0;right:auto}.large-pull-0{position:relative;right:0;left:auto}.large-push-1{position:relative;left:8.33333%;right:auto}.large-pull-1{position:relative;right:8.33333%;left:auto}.large-push-2{position:relative;left:16.66667%;right:auto}.large-pull-2{position:relative;right:16.66667%;left:auto}.large-push-3{position:relative;left:25%;right:auto}.large-pull-3{position:relative;right:25%;left:auto}.large-push-4{position:relative;left:33.33333%;right:auto}.large-pull-4{position:relative;right:33.33333%;left:auto}.large-push-5{position:relative;left:41.66667%;right:auto}.large-pull-5{position:relative;right:41.66667%;left:auto}.large-push-6{position:relative;left:50%;right:auto}.large-pull-6{position:relative;right:50%;left:auto}.large-push-7{position:relative;left:58.33333%;right:auto}.large-pull-7{position:relative;right:58.33333%;left:auto}.large-push-8{position:relative;left:66.66667%;right:auto}.large-pull-8{position:relative;right:66.66667%;left:auto}.large-push-9{position:relative;left:75%;right:auto}.large-pull-9{position:relative;right:75%;left:auto}.large-push-10{position:relative;left:83.33333%;right:auto}.large-pull-10{position:relative;right:83.33333%;left:auto}.large-push-11{position:relative;left:91.66667%;right:auto}.large-pull-11{position:relative;right:91.66667%;left:auto}.column,.columns{position:relative;padding-left:0.9375em;padding-right:0.9375em;float:left}.large-1{width:8.33333%}.large-2{width:16.66667%}.large-3{width:25%}.large-4{width:33.33333%}.large-5{width:41.66667%}.large-6{width:50%}.large-7{width:58.33333%}.large-8{width:66.66667%}.large-9{width:75%}.large-10{width:83.33333%}.large-11{width:91.66667%}.large-12{width:100%}.large-offset-0{margin-left:0 !important}.large-offset-1{margin-left:8.33333% !important}.large-offset-2{margin-left:16.66667% !important}.large-offset-3{margin-left:25% !important}.large-offset-4{margin-left:33.33333% !important}.large-offset-5{margin-left:41.66667% !important}.large-offset-6{margin-left:50% !important}.large-offset-7{margin-left:58.33333% !important}.large-offset-8{margin-left:66.66667% !important}.large-offset-9{margin-left:75% !important}.large-offset-10{margin-left:83.33333% !important}.large-offset-11{margin-left:91.66667% !important}.large-reset-order{float:left;left:auto;margin-left:0;margin-right:0;right:auto}.column.large-centered,.columns.large-centered{margin-left:auto;margin-right:auto;float:none}.column.large-uncentered,.columns.large-uncentered{float:left;margin-left:0;margin-right:0}.column.large-centered:last-child,.columns.large-centered:last-child{float:none}.column.large-uncentered:last-child,.columns.large-uncentered:last-child{float:left}.column.large-uncentered.opposite,.columns.large-uncentered.opposite{float:right}.row.large-collapse>.column,.row.large-collapse>.columns{padding-left:0;padding-right:0}.row.large-collapse .row{margin-left:0;margin-right:0}.row.large-uncollapse>.column,.row.large-uncollapse>.columns{padding-left:0.9375em;padding-right:0.9375em;float:left}.push-0{position:relative;left:0;right:auto}.pull-0{position:relative;right:0;left:auto}.push-1{position:relative;left:8.33333%;right:auto}.pull-1{position:relative;right:8.33333%;left:auto}.push-2{position:relative;left:16.66667%;right:auto}.pull-2{position:relative;right:16.66667%;left:auto}.push-3{position:relative;left:25%;right:auto}.pull-3{position:relative;right:25%;left:auto}.push-4{position:relative;left:33.33333%;right:auto}.pull-4{position:relative;right:33.33333%;left:auto}.push-5{position:relative;left:41.66667%;right:auto}.pull-5{position:relative;right:41.66667%;left:auto}.push-6{position:relative;left:50%;right:auto}.pull-6{position:relative;right:50%;left:auto}.push-7{position:relative;left:58.33333%;right:auto}.pull-7{position:relative;right:58.33333%;left:auto}.push-8{position:relative;left:66.66667%;right:auto}.pull-8{position:relative;right:66.66667%;left:auto}.push-9{position:relative;left:75%;right:auto}.pull-9{position:relative;right:75%;left:auto}.push-10{position:relative;left:83.33333%;right:auto}.pull-10{position:relative;right:83.33333%;left:auto}.push-11{position:relative;left:91.66667%;right:auto}.pull-11{position:relative;right:91.66667%;left:auto}}[class*="block-grid-"]{display:block;padding:0;margin:0 -0.625rem}[class*="block-grid-"]:before,[class*="block-grid-"]:after{content:" ";display:table}[class*="block-grid-"]:after{clear:both}[class*="block-grid-"]>li{display:block;float:left;height:auto;padding:0 0.625rem 1.25rem}@media only screen{.small-block-grid-1>li{list-style:none;width:100%}.small-block-grid-1>li:nth-of-type(1n){clear:none}.small-block-grid-1>li:nth-of-type(1n+1){clear:both}.small-block-grid-2>li{list-style:none;width:50%}.small-block-grid-2>li:nth-of-type(1n){clear:none}.small-block-grid-2>li:nth-of-type(2n+1){clear:both}.small-block-grid-3>li{list-style:none;width:33.33333%}.small-block-grid-3>li:nth-of-type(1n){clear:none}.small-block-grid-3>li:nth-of-type(3n+1){clear:both}.small-block-grid-4>li{list-style:none;width:25%}.small-block-grid-4>li:nth-of-type(1n){clear:none}.small-block-grid-4>li:nth-of-type(4n+1){clear:both}.small-block-grid-5>li{list-style:none;width:20%}.small-block-grid-5>li:nth-of-type(1n){clear:none}.small-block-grid-5>li:nth-of-type(5n+1){clear:both}.small-block-grid-6>li{list-style:none;width:16.66667%}.small-block-grid-6>li:nth-of-type(1n){clear:none}.small-block-grid-6>li:nth-of-type(6n+1){clear:both}.small-block-grid-7>li{list-style:none;width:14.28571%}.small-block-grid-7>li:nth-of-type(1n){clear:none}.small-block-grid-7>li:nth-of-type(7n+1){clear:both}.small-block-grid-8>li{list-style:none;width:12.5%}.small-block-grid-8>li:nth-of-type(1n){clear:none}.small-block-grid-8>li:nth-of-type(8n+1){clear:both}.small-block-grid-9>li{list-style:none;width:11.11111%}.small-block-grid-9>li:nth-of-type(1n){clear:none}.small-block-grid-9>li:nth-of-type(9n+1){clear:both}.small-block-grid-10>li{list-style:none;width:10%}.small-block-grid-10>li:nth-of-type(1n){clear:none}.small-block-grid-10>li:nth-of-type(10n+1){clear:both}.small-block-grid-11>li{list-style:none;width:9.09091%}.small-block-grid-11>li:nth-of-type(1n){clear:none}.small-block-grid-11>li:nth-of-type(11n+1){clear:both}.small-block-grid-12>li{list-style:none;width:8.33333%}.small-block-grid-12>li:nth-of-type(1n){clear:none}.small-block-grid-12>li:nth-of-type(12n+1){clear:both}}@media only screen and (min-width: 40.0625em){.medium-block-grid-1>li{list-style:none;width:100%}.medium-block-grid-1>li:nth-of-type(1n){clear:none}.medium-block-grid-1>li:nth-of-type(1n+1){clear:both}.medium-block-grid-2>li{list-style:none;width:50%}.medium-block-grid-2>li:nth-of-type(1n){clear:none}.medium-block-grid-2>li:nth-of-type(2n+1){clear:both}.medium-block-grid-3>li{list-style:none;width:33.33333%}.medium-block-grid-3>li:nth-of-type(1n){clear:none}.medium-block-grid-3>li:nth-of-type(3n+1){clear:both}.medium-block-grid-4>li{list-style:none;width:25%}.medium-block-grid-4>li:nth-of-type(1n){clear:none}.medium-block-grid-4>li:nth-of-type(4n+1){clear:both}.medium-block-grid-5>li{list-style:none;width:20%}.medium-block-grid-5>li:nth-of-type(1n){clear:none}.medium-block-grid-5>li:nth-of-type(5n+1){clear:both}.medium-block-grid-6>li{list-style:none;width:16.66667%}.medium-block-grid-6>li:nth-of-type(1n){clear:none}.medium-block-grid-6>li:nth-of-type(6n+1){clear:both}.medium-block-grid-7>li{list-style:none;width:14.28571%}.medium-block-grid-7>li:nth-of-type(1n){clear:none}.medium-block-grid-7>li:nth-of-type(7n+1){clear:both}.medium-block-grid-8>li{list-style:none;width:12.5%}.medium-block-grid-8>li:nth-of-type(1n){clear:none}.medium-block-grid-8>li:nth-of-type(8n+1){clear:both}.medium-block-grid-9>li{list-style:none;width:11.11111%}.medium-block-grid-9>li:nth-of-type(1n){clear:none}.medium-block-grid-9>li:nth-of-type(9n+1){clear:both}.medium-block-grid-10>li{list-style:none;width:10%}.medium-block-grid-10>li:nth-of-type(1n){clear:none}.medium-block-grid-10>li:nth-of-type(10n+1){clear:both}.medium-block-grid-11>li{list-style:none;width:9.09091%}.medium-block-grid-11>li:nth-of-type(1n){clear:none}.medium-block-grid-11>li:nth-of-type(11n+1){clear:both}.medium-block-grid-12>li{list-style:none;width:8.33333%}.medium-block-grid-12>li:nth-of-type(1n){clear:none}.medium-block-grid-12>li:nth-of-type(12n+1){clear:both}}@media only screen and (min-width: 64.0625em){.large-block-grid-1>li{list-style:none;width:100%}.large-block-grid-1>li:nth-of-type(1n){clear:none}.large-block-grid-1>li:nth-of-type(1n+1){clear:both}.large-block-grid-2>li{list-style:none;width:50%}.large-block-grid-2>li:nth-of-type(1n){clear:none}.large-block-grid-2>li:nth-of-type(2n+1){clear:both}.large-block-grid-3>li{list-style:none;width:33.33333%}.large-block-grid-3>li:nth-of-type(1n){clear:none}.large-block-grid-3>li:nth-of-type(3n+1){clear:both}.large-block-grid-4>li{list-style:none;width:25%}.large-block-grid-4>li:nth-of-type(1n){clear:none}.large-block-grid-4>li:nth-of-type(4n+1){clear:both}.large-block-grid-5>li{list-style:none;width:20%}.large-block-grid-5>li:nth-of-type(1n){clear:none}.large-block-grid-5>li:nth-of-type(5n+1){clear:both}.large-block-grid-6>li{list-style:none;width:16.66667%}.large-block-grid-6>li:nth-of-type(1n){clear:none}.large-block-grid-6>li:nth-of-type(6n+1){clear:both}.large-block-grid-7>li{list-style:none;width:14.28571%}.large-block-grid-7>li:nth-of-type(1n){clear:none}.large-block-grid-7>li:nth-of-type(7n+1){clear:both}.large-block-grid-8>li{list-style:none;width:12.5%}.large-block-grid-8>li:nth-of-type(1n){clear:none}.large-block-grid-8>li:nth-of-type(8n+1){clear:both}.large-block-grid-9>li{list-style:none;width:11.11111%}.large-block-grid-9>li:nth-of-type(1n){clear:none}.large-block-grid-9>li:nth-of-type(9n+1){clear:both}.large-block-grid-10>li{list-style:none;width:10%}.large-block-grid-10>li:nth-of-type(1n){clear:none}.large-block-grid-10>li:nth-of-type(10n+1){clear:both}.large-block-grid-11>li{list-style:none;width:9.09091%}.large-block-grid-11>li:nth-of-type(1n){clear:none}.large-block-grid-11>li:nth-of-type(11n+1){clear:both}.large-block-grid-12>li{list-style:none;width:8.33333%}.large-block-grid-12>li:nth-of-type(1n){clear:none}.large-block-grid-12>li:nth-of-type(12n+1){clear:both}}
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,700,300italic);
+@font-face {
+  font-family: 'FontAwesome';
+  src: url(/assets/fontawesome-webfont-d4f5a99224154f2a808e42a441ddc9248ffe78b7a4083684ce159270b30b912a.eot?v=4.1.0);
+  src: url(/assets/fontawesome-webfont-d4f5a99224154f2a808e42a441ddc9248ffe78b7a4083684ce159270b30b912a.eot?#iefix&v=4.1.0) format("embedded-opentype"), url(/assets/fontawesome-webfont-a7c7e4930090e038a280fd61d88f0dc03dad4aeaedbd8c9be3dd9aa4c3b6f8d1.woff?v=4.1.0) format("woff"), url(/assets/fontawesome-webfont-1b7f3de49d68b01f415574ebb82e6110a1d09cda2071ad8451bdb5124131a292.ttf?v=4.1.0) format("truetype"), url(/assets/fontawesome-webfont-7414288c272f6cc10304aa18e89bf24fb30f40afd644623f425c2c3d71fbe06a.svg?v=4.1.0#fontawesomeregular) format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-lg {
+  font-size: 1.33333333em;
+  line-height: .75em;
+  vertical-align: -15%;
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-2x {
+  font-size: 2em;
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-3x {
+  font-size: 3em;
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-4x {
+  font-size: 4em;
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-5x {
+  font-size: 5em;
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-fw {
+  width: 1.28571429em;
+  text-align: center;
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-ul {
+  padding-left: 0;
+  margin-left: 2.14285714em;
+  list-style-type: none;
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-ul > li {
+  position: relative;
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-li {
+  position: absolute;
+  left: -2.14285714em;
+  width: 2.14285714em;
+  top: .14285714em;
+  text-align: center;
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-li.fa-lg {
+  left: -1.85714286em;
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-border {
+  padding: .2em .25em .15em;
+  border: solid .08em #eee;
+  border-radius: .1em;
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.pull-right {
+  float: right;
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.pull-left {
+  float: left;
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa.pull-left {
+  margin-right: .3em;
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa.pull-right {
+  margin-left: .3em;
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-spin {
+  -webkit-animation: spin 2s infinite linear;
+  -moz-animation: spin 2s infinite linear;
+  -o-animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
+}
+
+@-moz-keyframes spin {
+  0% {
+    -moz-transform: rotate(0deg);
+  }
+  100% {
+    -moz-transform: rotate(359deg);
+  }
+}
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+  }
+}
+@-o-keyframes spin {
+  0% {
+    -o-transform: rotate(0deg);
+  }
+  100% {
+    -o-transform: rotate(359deg);
+  }
+}
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-rotate-90 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-rotate-180 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-rotate-270 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-flip-horizontal {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
+  -webkit-transform: scale(-1, 1);
+  -moz-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-flip-vertical {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
+  -webkit-transform: scale(1, -1);
+  -moz-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  -o-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-stack {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-stack-1x, .fa-stack-2x {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-stack-1x {
+  line-height: inherit;
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-stack-2x {
+  font-size: 2em;
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-inverse {
+  color: #fff;
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-glass:before {
+  content: "\f000";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-music:before {
+  content: "\f001";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-search:before {
+  content: "\f002";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-envelope-o:before {
+  content: "\f003";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-heart:before {
+  content: "\f004";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-star:before {
+  content: "\f005";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-star-o:before {
+  content: "\f006";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-user:before {
+  content: "\f007";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-film:before {
+  content: "\f008";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-th-large:before {
+  content: "\f009";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-th:before {
+  content: "\f00a";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-th-list:before {
+  content: "\f00b";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-check:before {
+  content: "\f00c";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-times:before {
+  content: "\f00d";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-search-plus:before {
+  content: "\f00e";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-search-minus:before {
+  content: "\f010";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-power-off:before {
+  content: "\f011";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-signal:before {
+  content: "\f012";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-gear:before, .fa-cog:before {
+  content: "\f013";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-trash-o:before {
+  content: "\f014";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-home:before {
+  content: "\f015";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-file-o:before {
+  content: "\f016";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-clock-o:before {
+  content: "\f017";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-road:before {
+  content: "\f018";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-download:before {
+  content: "\f019";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-arrow-circle-o-down:before {
+  content: "\f01a";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-arrow-circle-o-up:before {
+  content: "\f01b";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-inbox:before {
+  content: "\f01c";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-play-circle-o:before {
+  content: "\f01d";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-rotate-right:before, .fa-repeat:before {
+  content: "\f01e";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-refresh:before {
+  content: "\f021";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-list-alt:before {
+  content: "\f022";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-lock:before {
+  content: "\f023";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-flag:before {
+  content: "\f024";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-headphones:before {
+  content: "\f025";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-volume-off:before {
+  content: "\f026";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-volume-down:before {
+  content: "\f027";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-volume-up:before {
+  content: "\f028";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-qrcode:before {
+  content: "\f029";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-barcode:before {
+  content: "\f02a";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-tag:before {
+  content: "\f02b";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-tags:before {
+  content: "\f02c";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-book:before {
+  content: "\f02d";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-bookmark:before {
+  content: "\f02e";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-print:before {
+  content: "\f02f";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-camera:before {
+  content: "\f030";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-font:before {
+  content: "\f031";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-bold:before {
+  content: "\f032";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-italic:before {
+  content: "\f033";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-text-height:before {
+  content: "\f034";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-text-width:before {
+  content: "\f035";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-align-left:before {
+  content: "\f036";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-align-center:before {
+  content: "\f037";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-align-right:before {
+  content: "\f038";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-align-justify:before {
+  content: "\f039";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-list:before {
+  content: "\f03a";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-dedent:before, .fa-outdent:before {
+  content: "\f03b";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-indent:before {
+  content: "\f03c";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-video-camera:before {
+  content: "\f03d";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-photo:before, .fa-image:before, .fa-picture-o:before {
+  content: "\f03e";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-pencil:before {
+  content: "\f040";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-map-marker:before {
+  content: "\f041";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-adjust:before {
+  content: "\f042";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-tint:before {
+  content: "\f043";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-edit:before, .fa-pencil-square-o:before {
+  content: "\f044";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-share-square-o:before {
+  content: "\f045";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-check-square-o:before {
+  content: "\f046";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-arrows:before {
+  content: "\f047";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-step-backward:before {
+  content: "\f048";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-fast-backward:before {
+  content: "\f049";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-backward:before {
+  content: "\f04a";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-play:before {
+  content: "\f04b";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-pause:before {
+  content: "\f04c";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-stop:before {
+  content: "\f04d";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-forward:before {
+  content: "\f04e";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-fast-forward:before {
+  content: "\f050";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-step-forward:before {
+  content: "\f051";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-eject:before {
+  content: "\f052";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-chevron-left:before {
+  content: "\f053";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-chevron-right:before {
+  content: "\f054";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-plus-circle:before {
+  content: "\f055";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-minus-circle:before {
+  content: "\f056";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-times-circle:before {
+  content: "\f057";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-check-circle:before {
+  content: "\f058";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-question-circle:before {
+  content: "\f059";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-info-circle:before {
+  content: "\f05a";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-crosshairs:before {
+  content: "\f05b";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-times-circle-o:before {
+  content: "\f05c";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-check-circle-o:before {
+  content: "\f05d";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-ban:before {
+  content: "\f05e";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-arrow-left:before {
+  content: "\f060";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-arrow-right:before {
+  content: "\f061";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-arrow-up:before {
+  content: "\f062";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-arrow-down:before {
+  content: "\f063";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-mail-forward:before, .fa-share:before {
+  content: "\f064";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-expand:before {
+  content: "\f065";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-compress:before {
+  content: "\f066";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-plus:before {
+  content: "\f067";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-minus:before {
+  content: "\f068";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-asterisk:before {
+  content: "\f069";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-exclamation-circle:before {
+  content: "\f06a";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-gift:before {
+  content: "\f06b";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-leaf:before {
+  content: "\f06c";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-fire:before {
+  content: "\f06d";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-eye:before {
+  content: "\f06e";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-eye-slash:before {
+  content: "\f070";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-warning:before, .fa-exclamation-triangle:before {
+  content: "\f071";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-plane:before {
+  content: "\f072";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-calendar:before {
+  content: "\f073";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-random:before {
+  content: "\f074";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-comment:before {
+  content: "\f075";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-magnet:before {
+  content: "\f076";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-chevron-up:before {
+  content: "\f077";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-chevron-down:before {
+  content: "\f078";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-retweet:before {
+  content: "\f079";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-shopping-cart:before {
+  content: "\f07a";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-folder:before {
+  content: "\f07b";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-folder-open:before {
+  content: "\f07c";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-arrows-v:before {
+  content: "\f07d";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-arrows-h:before {
+  content: "\f07e";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-bar-chart-o:before {
+  content: "\f080";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-twitter-square:before {
+  content: "\f081";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-facebook-square:before {
+  content: "\f082";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-camera-retro:before {
+  content: "\f083";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-key:before {
+  content: "\f084";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-gears:before, .fa-cogs:before {
+  content: "\f085";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-comments:before {
+  content: "\f086";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-thumbs-o-up:before {
+  content: "\f087";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-thumbs-o-down:before {
+  content: "\f088";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-star-half:before {
+  content: "\f089";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-heart-o:before {
+  content: "\f08a";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-sign-out:before {
+  content: "\f08b";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-linkedin-square:before {
+  content: "\f08c";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-thumb-tack:before {
+  content: "\f08d";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-external-link:before {
+  content: "\f08e";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-sign-in:before {
+  content: "\f090";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-trophy:before {
+  content: "\f091";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-github-square:before {
+  content: "\f092";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-upload:before {
+  content: "\f093";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-lemon-o:before {
+  content: "\f094";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-phone:before {
+  content: "\f095";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-square-o:before {
+  content: "\f096";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-bookmark-o:before {
+  content: "\f097";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-phone-square:before {
+  content: "\f098";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-twitter:before {
+  content: "\f099";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-facebook:before {
+  content: "\f09a";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-github:before {
+  content: "\f09b";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-unlock:before {
+  content: "\f09c";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-credit-card:before {
+  content: "\f09d";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-rss:before {
+  content: "\f09e";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-hdd-o:before {
+  content: "\f0a0";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-bullhorn:before {
+  content: "\f0a1";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-bell:before {
+  content: "\f0f3";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-certificate:before {
+  content: "\f0a3";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-hand-o-right:before {
+  content: "\f0a4";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-hand-o-left:before {
+  content: "\f0a5";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-hand-o-up:before {
+  content: "\f0a6";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-hand-o-down:before {
+  content: "\f0a7";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-arrow-circle-left:before {
+  content: "\f0a8";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-arrow-circle-right:before {
+  content: "\f0a9";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-arrow-circle-up:before {
+  content: "\f0aa";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-arrow-circle-down:before {
+  content: "\f0ab";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-globe:before {
+  content: "\f0ac";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-wrench:before {
+  content: "\f0ad";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-tasks:before {
+  content: "\f0ae";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-filter:before {
+  content: "\f0b0";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-briefcase:before {
+  content: "\f0b1";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-arrows-alt:before {
+  content: "\f0b2";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-group:before, .fa-users:before {
+  content: "\f0c0";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-chain:before, .fa-link:before {
+  content: "\f0c1";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-cloud:before {
+  content: "\f0c2";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-flask:before {
+  content: "\f0c3";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-cut:before, .fa-scissors:before {
+  content: "\f0c4";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-copy:before, .fa-files-o:before {
+  content: "\f0c5";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-paperclip:before {
+  content: "\f0c6";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-save:before, .fa-floppy-o:before {
+  content: "\f0c7";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-square:before {
+  content: "\f0c8";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-navicon:before, .fa-reorder:before, .fa-bars:before {
+  content: "\f0c9";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-list-ul:before {
+  content: "\f0ca";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-list-ol:before {
+  content: "\f0cb";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-strikethrough:before {
+  content: "\f0cc";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-underline:before {
+  content: "\f0cd";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-table:before {
+  content: "\f0ce";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-magic:before {
+  content: "\f0d0";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-truck:before {
+  content: "\f0d1";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-pinterest:before {
+  content: "\f0d2";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-pinterest-square:before {
+  content: "\f0d3";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-google-plus-square:before {
+  content: "\f0d4";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-google-plus:before {
+  content: "\f0d5";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-money:before {
+  content: "\f0d6";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-caret-down:before {
+  content: "\f0d7";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-caret-up:before {
+  content: "\f0d8";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-caret-left:before {
+  content: "\f0d9";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-caret-right:before {
+  content: "\f0da";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-columns:before {
+  content: "\f0db";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-unsorted:before, .fa-sort:before {
+  content: "\f0dc";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-sort-down:before, .fa-sort-desc:before {
+  content: "\f0dd";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-sort-up:before, .fa-sort-asc:before {
+  content: "\f0de";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-envelope:before {
+  content: "\f0e0";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-linkedin:before {
+  content: "\f0e1";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-rotate-left:before, .fa-undo:before {
+  content: "\f0e2";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-legal:before, .fa-gavel:before {
+  content: "\f0e3";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-dashboard:before, .fa-tachometer:before {
+  content: "\f0e4";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-comment-o:before {
+  content: "\f0e5";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-comments-o:before {
+  content: "\f0e6";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-flash:before, .fa-bolt:before {
+  content: "\f0e7";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-sitemap:before {
+  content: "\f0e8";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-umbrella:before {
+  content: "\f0e9";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-paste:before, .fa-clipboard:before {
+  content: "\f0ea";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-lightbulb-o:before {
+  content: "\f0eb";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-exchange:before {
+  content: "\f0ec";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-cloud-download:before {
+  content: "\f0ed";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-cloud-upload:before {
+  content: "\f0ee";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-user-md:before {
+  content: "\f0f0";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-stethoscope:before {
+  content: "\f0f1";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-suitcase:before {
+  content: "\f0f2";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-bell-o:before {
+  content: "\f0a2";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-coffee:before {
+  content: "\f0f4";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-cutlery:before {
+  content: "\f0f5";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-file-text-o:before {
+  content: "\f0f6";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-building-o:before {
+  content: "\f0f7";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-hospital-o:before {
+  content: "\f0f8";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-ambulance:before {
+  content: "\f0f9";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-medkit:before {
+  content: "\f0fa";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-fighter-jet:before {
+  content: "\f0fb";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-beer:before {
+  content: "\f0fc";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-h-square:before {
+  content: "\f0fd";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-plus-square:before {
+  content: "\f0fe";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-angle-double-left:before {
+  content: "\f100";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-angle-double-right:before {
+  content: "\f101";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-angle-double-up:before {
+  content: "\f102";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-angle-double-down:before {
+  content: "\f103";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-angle-left:before {
+  content: "\f104";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-angle-right:before {
+  content: "\f105";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-angle-up:before {
+  content: "\f106";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-angle-down:before {
+  content: "\f107";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-desktop:before {
+  content: "\f108";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-laptop:before {
+  content: "\f109";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-tablet:before {
+  content: "\f10a";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-mobile-phone:before, .fa-mobile:before {
+  content: "\f10b";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-circle-o:before {
+  content: "\f10c";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-quote-left:before {
+  content: "\f10d";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-quote-right:before {
+  content: "\f10e";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-spinner:before {
+  content: "\f110";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-circle:before {
+  content: "\f111";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-mail-reply:before, .fa-reply:before {
+  content: "\f112";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-github-alt:before {
+  content: "\f113";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-folder-o:before {
+  content: "\f114";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-folder-open-o:before {
+  content: "\f115";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-smile-o:before {
+  content: "\f118";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-frown-o:before {
+  content: "\f119";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-meh-o:before {
+  content: "\f11a";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-gamepad:before {
+  content: "\f11b";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-keyboard-o:before {
+  content: "\f11c";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-flag-o:before {
+  content: "\f11d";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-flag-checkered:before {
+  content: "\f11e";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-terminal:before {
+  content: "\f120";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-code:before {
+  content: "\f121";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-mail-reply-all:before, .fa-reply-all:before {
+  content: "\f122";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-star-half-empty:before, .fa-star-half-full:before, .fa-star-half-o:before {
+  content: "\f123";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-location-arrow:before {
+  content: "\f124";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-crop:before {
+  content: "\f125";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-code-fork:before {
+  content: "\f126";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-unlink:before, .fa-chain-broken:before {
+  content: "\f127";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-question:before {
+  content: "\f128";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-info:before {
+  content: "\f129";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-exclamation:before {
+  content: "\f12a";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-superscript:before {
+  content: "\f12b";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-subscript:before {
+  content: "\f12c";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-eraser:before {
+  content: "\f12d";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-puzzle-piece:before {
+  content: "\f12e";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-microphone:before {
+  content: "\f130";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-microphone-slash:before {
+  content: "\f131";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-shield:before {
+  content: "\f132";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-calendar-o:before {
+  content: "\f133";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-fire-extinguisher:before {
+  content: "\f134";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-rocket:before {
+  content: "\f135";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-maxcdn:before {
+  content: "\f136";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-chevron-circle-left:before {
+  content: "\f137";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-chevron-circle-right:before {
+  content: "\f138";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-chevron-circle-up:before {
+  content: "\f139";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-chevron-circle-down:before {
+  content: "\f13a";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-html5:before {
+  content: "\f13b";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-css3:before {
+  content: "\f13c";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-anchor:before {
+  content: "\f13d";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-unlock-alt:before {
+  content: "\f13e";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-bullseye:before {
+  content: "\f140";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-ellipsis-h:before {
+  content: "\f141";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-ellipsis-v:before {
+  content: "\f142";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-rss-square:before {
+  content: "\f143";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-play-circle:before {
+  content: "\f144";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-ticket:before {
+  content: "\f145";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-minus-square:before {
+  content: "\f146";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-minus-square-o:before {
+  content: "\f147";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-level-up:before {
+  content: "\f148";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-level-down:before {
+  content: "\f149";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-check-square:before {
+  content: "\f14a";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-pencil-square:before {
+  content: "\f14b";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-external-link-square:before {
+  content: "\f14c";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-share-square:before {
+  content: "\f14d";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-compass:before {
+  content: "\f14e";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-toggle-down:before, .fa-caret-square-o-down:before {
+  content: "\f150";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-toggle-up:before, .fa-caret-square-o-up:before {
+  content: "\f151";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-toggle-right:before, .fa-caret-square-o-right:before {
+  content: "\f152";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-euro:before, .fa-eur:before {
+  content: "\f153";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-gbp:before {
+  content: "\f154";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-dollar:before, .fa-usd:before {
+  content: "\f155";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-rupee:before, .fa-inr:before {
+  content: "\f156";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-cny:before, .fa-rmb:before, .fa-yen:before, .fa-jpy:before {
+  content: "\f157";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-ruble:before, .fa-rouble:before, .fa-rub:before {
+  content: "\f158";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-won:before, .fa-krw:before {
+  content: "\f159";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-bitcoin:before, .fa-btc:before {
+  content: "\f15a";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-file:before {
+  content: "\f15b";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-file-text:before {
+  content: "\f15c";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-sort-alpha-asc:before {
+  content: "\f15d";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-sort-alpha-desc:before {
+  content: "\f15e";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-sort-amount-asc:before {
+  content: "\f160";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-sort-amount-desc:before {
+  content: "\f161";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-sort-numeric-asc:before {
+  content: "\f162";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-sort-numeric-desc:before {
+  content: "\f163";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-thumbs-up:before {
+  content: "\f164";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-thumbs-down:before {
+  content: "\f165";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-youtube-square:before {
+  content: "\f166";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-youtube:before {
+  content: "\f167";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-xing:before {
+  content: "\f168";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-xing-square:before {
+  content: "\f169";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-youtube-play:before {
+  content: "\f16a";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-dropbox:before {
+  content: "\f16b";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-stack-overflow:before {
+  content: "\f16c";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-instagram:before {
+  content: "\f16d";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-flickr:before {
+  content: "\f16e";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-adn:before {
+  content: "\f170";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-bitbucket:before {
+  content: "\f171";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-bitbucket-square:before {
+  content: "\f172";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-tumblr:before {
+  content: "\f173";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-tumblr-square:before {
+  content: "\f174";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-long-arrow-down:before {
+  content: "\f175";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-long-arrow-up:before {
+  content: "\f176";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-long-arrow-left:before {
+  content: "\f177";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-long-arrow-right:before {
+  content: "\f178";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-apple:before {
+  content: "\f179";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-windows:before {
+  content: "\f17a";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-android:before {
+  content: "\f17b";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-linux:before {
+  content: "\f17c";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-dribbble:before {
+  content: "\f17d";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-skype:before {
+  content: "\f17e";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-foursquare:before {
+  content: "\f180";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-trello:before {
+  content: "\f181";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-female:before {
+  content: "\f182";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-male:before {
+  content: "\f183";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-gittip:before {
+  content: "\f184";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-sun-o:before {
+  content: "\f185";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-moon-o:before {
+  content: "\f186";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-archive:before {
+  content: "\f187";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-bug:before {
+  content: "\f188";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-vk:before {
+  content: "\f189";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-weibo:before {
+  content: "\f18a";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-renren:before {
+  content: "\f18b";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-pagelines:before {
+  content: "\f18c";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-stack-exchange:before {
+  content: "\f18d";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-arrow-circle-o-right:before {
+  content: "\f18e";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-arrow-circle-o-left:before {
+  content: "\f190";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-toggle-left:before, .fa-caret-square-o-left:before {
+  content: "\f191";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-dot-circle-o:before {
+  content: "\f192";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-wheelchair:before {
+  content: "\f193";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-vimeo-square:before {
+  content: "\f194";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-turkish-lira:before, .fa-try:before {
+  content: "\f195";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-plus-square-o:before {
+  content: "\f196";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-space-shuttle:before {
+  content: "\f197";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-slack:before {
+  content: "\f198";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-envelope-square:before {
+  content: "\f199";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-wordpress:before {
+  content: "\f19a";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-openid:before {
+  content: "\f19b";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-institution:before, .fa-bank:before, .fa-university:before {
+  content: "\f19c";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-mortar-board:before, .fa-graduation-cap:before {
+  content: "\f19d";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-yahoo:before {
+  content: "\f19e";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-google:before {
+  content: "\f1a0";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-reddit:before {
+  content: "\f1a1";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-reddit-square:before {
+  content: "\f1a2";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-stumbleupon-circle:before {
+  content: "\f1a3";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-stumbleupon:before {
+  content: "\f1a4";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-delicious:before {
+  content: "\f1a5";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-digg:before {
+  content: "\f1a6";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-pied-piper-square:before, .fa-pied-piper:before {
+  content: "\f1a7";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-pied-piper-alt:before {
+  content: "\f1a8";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-drupal:before {
+  content: "\f1a9";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-joomla:before {
+  content: "\f1aa";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-language:before {
+  content: "\f1ab";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-fax:before {
+  content: "\f1ac";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-building:before {
+  content: "\f1ad";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-child:before {
+  content: "\f1ae";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-paw:before {
+  content: "\f1b0";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-spoon:before {
+  content: "\f1b1";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-cube:before {
+  content: "\f1b2";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-cubes:before {
+  content: "\f1b3";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-behance:before {
+  content: "\f1b4";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-behance-square:before {
+  content: "\f1b5";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-steam:before {
+  content: "\f1b6";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-steam-square:before {
+  content: "\f1b7";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-recycle:before {
+  content: "\f1b8";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-automobile:before, .fa-car:before {
+  content: "\f1b9";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-cab:before, .fa-taxi:before {
+  content: "\f1ba";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-tree:before {
+  content: "\f1bb";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-spotify:before {
+  content: "\f1bc";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-deviantart:before {
+  content: "\f1bd";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-soundcloud:before {
+  content: "\f1be";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-database:before {
+  content: "\f1c0";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-file-pdf-o:before {
+  content: "\f1c1";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-file-word-o:before {
+  content: "\f1c2";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-file-excel-o:before {
+  content: "\f1c3";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-file-powerpoint-o:before {
+  content: "\f1c4";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-file-photo-o:before, .fa-file-picture-o:before, .fa-file-image-o:before {
+  content: "\f1c5";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-file-zip-o:before, .fa-file-archive-o:before {
+  content: "\f1c6";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-file-sound-o:before, .fa-file-audio-o:before {
+  content: "\f1c7";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-file-movie-o:before, .fa-file-video-o:before {
+  content: "\f1c8";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-file-code-o:before {
+  content: "\f1c9";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-vine:before {
+  content: "\f1ca";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-codepen:before {
+  content: "\f1cb";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-jsfiddle:before {
+  content: "\f1cc";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-life-bouy:before, .fa-life-saver:before, .fa-support:before, .fa-life-ring:before {
+  content: "\f1cd";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-circle-o-notch:before {
+  content: "\f1ce";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-ra:before, .fa-rebel:before {
+  content: "\f1d0";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-ge:before, .fa-empire:before {
+  content: "\f1d1";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-git-square:before {
+  content: "\f1d2";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-git:before {
+  content: "\f1d3";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-hacker-news:before {
+  content: "\f1d4";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-tencent-weibo:before {
+  content: "\f1d5";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-qq:before {
+  content: "\f1d6";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-wechat:before, .fa-weixin:before {
+  content: "\f1d7";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-send:before, .fa-paper-plane:before {
+  content: "\f1d8";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-send-o:before, .fa-paper-plane-o:before {
+  content: "\f1d9";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-history:before {
+  content: "\f1da";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-circle-thin:before {
+  content: "\f1db";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-header:before {
+  content: "\f1dc";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-paragraph:before {
+  content: "\f1dd";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-sliders:before {
+  content: "\f1de";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-share-alt:before {
+  content: "\f1e0";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-share-alt-square:before {
+  content: "\f1e1";
+}
+
+/* line 2, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.fa-bomb:before {
+  content: "\f1e2";
+}
+
+/* line 15, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+  background: #000;
+}
+
+/* line 24, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 30, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+h2 {
+  font-weight: 100;
+  text-align: center;
+  padding: 12px;
+  color: #ebebeb;
+}
+
+/* line 37, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.push-right {
+  float: right;
+}
+
+/* line 41, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.push-left {
+  float: left;
+}
+
+/* line 45, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.button {
+  border: 1px solid rgba(250, 250, 250, 0.5);
+  border-radius: 6px;
+  color: #fff;
+  font-weight: 100;
+  padding: 6px 10px;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+/* line 53, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.button::before {
+  font-family: FontAwesome;
+  content: "";
+  padding: 0 5px;
+  color: #9f0505;
+}
+
+/* line 63, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+#wrapper {
+  min-height: 100%;
+  position: relative;
+}
+
+/* line 68, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+#main-content {
+  padding-bottom: 60px;
+  /* Height of the footer */
+}
+
+/* line 72, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+header {
+  border-bottom: 1px solid rgba(250, 250, 250, 0.2);
+  z-index: 10;
+}
+/* line 75, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+header img {
+  height: 60px;
+}
+/* line 78, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+header ul {
+  color: #fff;
+  float: right;
+  list-style: outside none inline;
+}
+/* line 82, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+header ul li {
+  display: inline;
+  padding: 10px;
+}
+
+/* line 89, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+input[type=search] {
+  background: rgba(0, 0, 0, 0.5) no-repeat scroll right center/15px auto;
+  border: 1px solid rgba(250, 250, 250, 0.5);
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 100;
+  padding: 5px;
+  background-image: url(/assets/search-41f4dabd01c1be22c557c1375f1ebe90835ceac9205df59c9c1d153d5c38bd14.svg);
+}
+
+/* line 101, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.facebook-login {
+  font-family: "Open Sans",sans-serif;
+  background: #3477e5 none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  padding: 5px;
+  text-align: center;
+  overflow: hidden;
+  border-bottom: 3px solid #14499f;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+/* line 113, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.facebook-login:hover {
+  background: #4b86e8;
+  text-shadow: 1px 1px 1px black;
+}
+/* line 117, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.facebook-login::before {
+  background: #1a5dcc;
+  border-radius: 6px 0 0 6px;
+  content: "";
+  font-family: FontAwesome;
+  left: -9px;
+  padding: 40px 10px;
+  position: relative;
+}
+
+/* line 128, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+#fading {
+  width: 100%;
+  position: fixed;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+/* line 134, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+footer {
+  background: #000;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  /* Height of the footer */
+  color: #616161;
+  font-size: 12px;
+  padding: 10px;
+  text-align: center;
+}
+
+/* line 146, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.rating {
+  color: #eed076;
+  padding: 0px;
+  margin: 0px;
+}
+/* line 150, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.rating li {
+  display: inline;
+}
+/* line 151, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.rating i {
+  font-size: 12px;
+}
+
+/* line 154, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.author {
+  bottom: 0;
+  padding: 10px;
+  position: absolute;
+  right: 0;
+  text-align: right;
+  font-size: 12px;
+  font-style: italic;
+}
+/* line 162, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.author img {
+  border: 2px solid white;
+  border-radius: 250px;
+  height: 40px;
+  margin-left: 8px;
+}
+
+/* line 171, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.homebanner {
+  background: url(/assets/home_banner-3573ab8d28daf9f93db3fdf501ce956e4ff3ab7c7c95aa4f8ba57215c8a0c76b.jpg) repeat fixed 0 0/cover;
+  height: 350px;
+  box-shadow: 0 50px 100px 0 rgba(0, 0, 0, 0.6) inset;
+}
+/* line 175, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.homebanner .row {
+  padding-top: 100px;
+}
+/* line 176, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.homebanner h1, .homebanner h3 {
+  color: #fff;
+}
+
+/* line 179, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.imageWrapper {
+  height: 170px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* line 187, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+#topshows {
+  background: #202020;
+  float: left;
+}
+/* line 190, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+#topshows h2 {
+  color: #fff;
+}
+
+/* line 193, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+#latest-reviews {
+  background: #000;
+  float: left;
+  padding-bottom: 20px;
+}
+/* line 197, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+#latest-reviews .button::before {
+  color: #9f7905;
+}
+/* line 201, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+#latest-reviews .imageWrapper {
+  height: 300px;
+}
+/* line 203, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+#latest-reviews .box-description {
+  background: #b88c06;
+}
+/* line 207, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+#latest-reviews .small-6 div {
+  background: #876604;
+}
+
+/* line 213, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.imageWrapper .box-description {
+  height: 170px;
+  opacity: 0.7;
+  position: absolute;
+  bottom: -128px;
+  left: 0px;
+  right: 0px;
+  padding: 2px 0px;
+  color: #ffffff;
+  background: #b80606;
+  text-decoration: none;
+  text-align: center;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+/* line 227, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.imageWrapper .box-description h4 {
+  line-height: 0.9;
+  margin-bottom: 18px;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  text-overflow: ellipsis;
+  top: -9px;
+  white-space: nowrap;
+}
+/* line 238, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.imageWrapper .box-description .small-6 div {
+  background: #870404;
+  padding: 5px;
+  margin-top: 20px;
+}
+/* line 243, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.imageWrapper .box-description .small-6 span {
+  display: block;
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* line 249, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.imageWrapper .box-description .small-6 i {
+  font-size: 14px;
+}
+
+/* line 254, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.imageWrapper:hover .box-description {
+  opacity: 0.9;
+  bottom: 0px;
+  height: 170px;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+/* line 261, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.image-item {
+  top: 0px;
+  display: block;
+  min-width: 100%;
+  height: auto;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+/* line 269, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/main.scss */
+.imageWrapper:hover .image-item {
+  min-width: 120% !important;
+  height: auto;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+/* Define mobile styles */
+/* max-width 640px, mobile-only styles, use when QAing mobile issues */
+/* min-width 641px, medium screens */
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  /* line 10, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/responsive.scss */
+  #latest-reviews .imageWrapper {
+    height: 170px;
+  }
+
+  /* line 11, /Users/krystalcampioni/Documents/repos/stormy-wave-4497/app/assets/stylesheets/responsive.scss */
+  .hide-for-medium {
+    display: none;
+  }
+}
+/* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+/* min-width 1025px, large screens */
+/* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
+/* min-width 1441px, xlarge screens */
+/* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+/* min-width 1921px, xxlarge screens */
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
+
+
