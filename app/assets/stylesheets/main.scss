@@ -220,6 +220,11 @@ footer {
 
 .singleshow-banner {
   background: image-url("singlebanner.jpg") repeat fixed 0 0 / cover ;
+  .rating { 
+    background: rgba(0, 0, 0, 0.3);
+    padding: 0px 10px;
+    display: table;
+  }
 }
 
 .homebanner{
