@@ -1,27 +1,100 @@
-%section#latest-reviews 
+.row
   .small-12.columns
-    .small-6.columns
-      %select#select1{:name => "select1"}
+    .small-12.medium-4.columns
+      %h2 Reviews por Episódio
+    .small-6.medium-4.columns
+      %select#select1.select-style{:name => "select1"}
         %option{:value => "1"} Temporada 1
         %option{:value => "2"} Temporada 2
-        %option{:value => "3"} Temporada 3
-        %option{:value => "4"} Temporada 4
-    .small-6.columns
-      %select.div-toggler#select2{:name => "select2", "data-target" => ".reviews-box"}
-        %option{:value => "1", "data-show" => ".citrus"} Episódio 1 - Banana
-        %option{:value => "1", "data-show" => ".citrus"} Episódio 2 - Apple
-        %option{:value => "1", "data-show" => ".citrus"} Episódio 3 - Orange
-        %option{:value => "2", "data-show" => ".citrus"} Episódio 1 - Wolf
-        %option{:value => "2", "data-show" => ".citrus"} Episódio 2 - Fox
-        %option{:value => "2", "data-show" => ".citrus"} Episódio 3 - Bear
-        %option{:value => "3", "data-show" => ".citrus"} Episódio 1 - Eagle
-        %option{:value => "3", "data-show" => ".citrus"} Episódio 2 - Hawk
-        %option{:value => "4", "data-show" => ".citrus"} Episódio 3 - BWM
+    .small-6.medium-4.columns
+      %select.div-toggler#select2.select-style{:name => "select2", "data-target" => ".reviews-box"}
+        %option{:value => "1", "data-show" => ".season-box"} Episódio 1 - Pilot
+        %option{:value => "1", "data-show" => ".season-box"} Episódio 2 - Cat's_in_the_Bag...
+        %option{:value => "1", "data-show" => ".season-box"} Episódio 3 - ...And the Bag's in the River
+        %option{:value => "1", "data-show" => ".season-box"} Episódio 4 - Cancer Man
+        %option{:value => "1", "data-show" => ".season-box"} Episódio 5 - Gray Matter
+        %option{:value => "2", "data-show" => ".season-box2"} Episódio 1 - Crazy Handful of Nothing
+        %option{:value => "2", "data-show" => ".season-box2"} Episódio 2 - A No-Rough-Stuff-Type Deal
+        %option{:value => "2", "data-show" => ".season-box2"} Episódio 3 - Seven Thirty-Seven
+        %option{:value => "2", "data-show" => ".season-box2"} Episódio 4 - Grilled
         %option
 
-    .reviews-box
-      .citrus.hide Citrus is a common term and genus (Citrus) of flowering plants in the rue family, Rutaceae.
-      .pome.hide In botany, a pome (after the Latin word for fruit: pōmum) is a type of fruit produced by flowering plants in the subtribe Malinae of the family Rosaceae.
+    .row.reviews-box
+      .season-box 
+        %h1 
+          Temporada 1 
+          %span Episódio 1 - Pilot
+        %a{:href => "#"}
+          .large-4.medium-4.columns
+            .review
+              %h4 
+                Mauris ut purus tincidunt
+              %p
+                orem ipsum dolor sit amet, consectetur adipiscing elit. Donec at tincidunt nulla. Suspendisse in aliquet lacus. 
+                %span Leia mais 
+              .author
+                Nome do Autor
+                = image_tag("user1.jpg")
+        %a{:href => "#"}
+          .large-4.medium-4.columns
+            .review
+              %h4 
+                Mauris ut purus tincidunt
+              %p
+                orem ipsum dolor sit amet, consectetur adipiscing elit. Donec at tincidunt nulla. Suspendisse in aliquet lacus. 
+              .author
+                Nome do Autor
+                = image_tag("user1.jpg")  
+        %a{:href => "#"}
+          .large-4.medium-4.columns
+            .review
+              %h4 
+                Mauris ut purus tincidunt
+              %p
+                orem ipsum dolor sit amet, consectetur adipiscing elit. Donec at tincidunt nulla. Suspendisse in aliquet lacus. 
+              .author
+                Nome do Autor
+                = image_tag("user1.jpg")
+
+      .season-box2.hide 
+        %h1 
+          Temporada 2 
+          %span Episódio 2 - A No-Rough-Stuff-Type Deal
+        %a{:href => "#"}
+          .large-4.medium-4.columns
+            .review
+              %h4 
+                Mauris ut purus tincidunt
+              %p
+                orem ipsum dolor sit amet, consectetur adipiscing elit. Donec at tincidunt nulla. Suspendisse in aliquet lacus. 
+                %span Leia mais 
+              .author
+                Nome do Autor
+                = image_tag("user1.jpg")
+        %a{:href => "#"}
+          .large-4.medium-4.columns
+            .review
+              %h4 
+                Mauris ut purus tincidunt
+              %p
+                orem ipsum dolor sit amet, consectetur adipiscing elit. Donec at tincidunt nulla. Suspendisse in aliquet lacus. 
+              .author
+                Nome do Autor
+                = image_tag("user1.jpg")  
+        %a{:href => "#"}
+          .large-4.medium-4.columns
+            .review
+              %h4 
+                Mauris ut purus tincidunt
+              %p
+                orem ipsum dolor sit amet, consectetur adipiscing elit. Donec at tincidunt nulla. Suspendisse in aliquet lacus. 
+              .author
+                Nome do Autor
+                = image_tag("user1.jpg")              
+                
+                  
+      
+
     :javascript
       $('select.div-toggler').change(function(){
           var target = $(this).data('target');
@@ -38,4 +111,7 @@
       var options = $(this).data('options').filter('[value=' + id + ']');
       $('#select2').html(options);
       });
+
+        
+        
         
