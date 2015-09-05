@@ -296,10 +296,11 @@ footer {
 
 #episodes-reviews {
   background: #202020 none repeat scroll 0 0;
+  padding-bottom: 30px;
   h2 { 
-    font-size: 19px;
+    font-size: 20px;
     padding: 6px 0 0;
-    text-align: left;
+    text-align: right;
   }
 }
 
@@ -334,10 +335,20 @@ footer {
 .season-box, .season-box2 {
   h1{ 
     color: #fff;
+    display: block;
     float: left;
     padding-top: 30px;
-    span { font-weight: 100;}
+    text-align: center;
+    width: 100%;
+    span {     
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 100;}
   }
+}
+
+#comment-share {
+  background: #000;
 }
 
 #latest-reviews{

@@ -16,10 +16,12 @@
             %i.fa.fa-star-o
         %h3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at tincidunt nulla. Suspendisse in aliquet lacus. Mauris ut purus tincidunt massa bibendum
     / = render "welcome/latestreviews"
-%section#episodes-reviews 
-  = render "episodesreviews"
+
+= render "showreviews"
+= render "episodesreviews"
+%section#comment-share 
   .row
-    #disqus_thread
+    #disqus_thread.small-12.columns
     :javascript
       /* * * CONFIGURATION VARIABLES * * */
       var disqus_shortname = 'srhublinhos';

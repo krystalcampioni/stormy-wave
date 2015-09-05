@@ -1,116 +1,117 @@
-.row
-  .small-12.columns
-    .small-12.medium-4.columns
-      %h2 Reviews por Episódio
-    .small-6.medium-4.columns
-      %select#select1.select-style{:name => "select1"}
-        %option{:value => "1"} Temporada 1
-        %option{:value => "2"} Temporada 2
-    .small-6.medium-4.columns
-      %select.div-toggler#select2.select-style{:name => "select2", "data-target" => ".reviews-box"}
-        %option{:value => "1", "data-show" => ".season-box"} Episódio 1 - Pilot
-        %option{:value => "1", "data-show" => ".season-box"} Episódio 2 - Cat's_in_the_Bag...
-        %option{:value => "1", "data-show" => ".season-box"} Episódio 3 - ...And the Bag's in the River
-        %option{:value => "1", "data-show" => ".season-box"} Episódio 4 - Cancer Man
-        %option{:value => "1", "data-show" => ".season-box"} Episódio 5 - Gray Matter
-        %option{:value => "2", "data-show" => ".season-box2"} Episódio 1 - Crazy Handful of Nothing
-        %option{:value => "2", "data-show" => ".season-box2"} Episódio 2 - A No-Rough-Stuff-Type Deal
-        %option{:value => "2", "data-show" => ".season-box2"} Episódio 3 - Seven Thirty-Seven
-        %option{:value => "2", "data-show" => ".season-box2"} Episódio 4 - Grilled
-        %option
+%section#episodes-reviews 
+  .row
+    .small-12.columns
+      .small-12.medium-4.columns
+        %h2 Reviews por Episódio
+      .small-6.medium-4.columns
+        %select#select1.select-style{:name => "select1"}
+          %option{:value => "1"} Temporada 1
+          %option{:value => "2"} Temporada 2
+      .small-6.medium-4.columns
+        %select.div-toggler#select2.select-style{:name => "select2", "data-target" => ".reviews-box"}
+          %option{:value => "1", "data-show" => ".season-box"} Episódio 1 - Pilot
+          %option{:value => "1", "data-show" => ".season-box"} Episódio 2 - Cat's_in_the_Bag...
+          %option{:value => "1", "data-show" => ".season-box"} Episódio 3 - ...And the Bag's in the River
+          %option{:value => "1", "data-show" => ".season-box"} Episódio 4 - Cancer Man
+          %option{:value => "1", "data-show" => ".season-box"} Episódio 5 - Gray Matter
+          %option{:value => "2", "data-show" => ".season-box2"} Episódio 1 - Crazy Handful of Nothing
+          %option{:value => "2", "data-show" => ".season-box2"} Episódio 2 - A No-Rough-Stuff-Type Deal
+          %option{:value => "2", "data-show" => ".season-box2"} Episódio 3 - Seven Thirty-Seven
+          %option{:value => "2", "data-show" => ".season-box2"} Episódio 4 - Grilled
+          %option
 
-    .row.reviews-box
-      .season-box 
-        %h1 
-          Temporada 1 
-          %span Episódio 1 - Pilot
-        %a{:href => "#"}
-          .large-4.medium-4.columns
-            .review
-              %h4 
-                Mauris ut purus tincidunt
-              %p
-                orem ipsum dolor sit amet, consectetur adipiscing elit. Donec at tincidunt nulla. Suspendisse in aliquet lacus. 
-                %span Leia mais 
-              .author
-                Nome do Autor
-                = image_tag("user1.jpg")
-        %a{:href => "#"}
-          .large-4.medium-4.columns
-            .review
-              %h4 
-                Mauris ut purus tincidunt
-              %p
-                orem ipsum dolor sit amet, consectetur adipiscing elit. Donec at tincidunt nulla. Suspendisse in aliquet lacus. 
-              .author
-                Nome do Autor
-                = image_tag("user1.jpg")  
-        %a{:href => "#"}
-          .large-4.medium-4.columns
-            .review
-              %h4 
-                Mauris ut purus tincidunt
-              %p
-                orem ipsum dolor sit amet, consectetur adipiscing elit. Donec at tincidunt nulla. Suspendisse in aliquet lacus. 
-              .author
-                Nome do Autor
-                = image_tag("user1.jpg")
+      .row.reviews-box
+        .season-box 
+          %h1 
+            Temporada 1 
+            %span Episódio 1 - Pilot
+          %a{:href => "#"}
+            .large-4.medium-4.columns
+              .review
+                %h4 
+                  Mauris ut purus tincidunt
+                %p
+                  orem ipsum dolor sit amet, consectetur adipiscing elit. Donec at tincidunt nulla. Suspendisse in aliquet lacus. 
+                  %span Leia mais 
+                .author
+                  Nome do Autor
+                  = image_tag("user1.jpg")
+          %a{:href => "#"}
+            .large-4.medium-4.columns
+              .review
+                %h4 
+                  Mauris ut purus tincidunt
+                %p
+                  orem ipsum dolor sit amet, consectetur adipiscing elit. Donec at tincidunt nulla. Suspendisse in aliquet lacus. 
+                .author
+                  Nome do Autor
+                  = image_tag("user1.jpg")  
+          %a{:href => "#"}
+            .large-4.medium-4.columns
+              .review
+                %h4 
+                  Mauris ut purus tincidunt
+                %p
+                  orem ipsum dolor sit amet, consectetur adipiscing elit. Donec at tincidunt nulla. Suspendisse in aliquet lacus. 
+                .author
+                  Nome do Autor
+                  = image_tag("user1.jpg")
 
-      .season-box2.hide 
-        %h1 
-          Temporada 2 
-          %span Episódio 2 - A No-Rough-Stuff-Type Deal
-        %a{:href => "#"}
-          .large-4.medium-4.columns
-            .review
-              %h4 
-                Mauris ut purus tincidunt
-              %p
-                orem ipsum dolor sit amet, consectetur adipiscing elit. Donec at tincidunt nulla. Suspendisse in aliquet lacus. 
-                %span Leia mais 
-              .author
-                Nome do Autor
-                = image_tag("user1.jpg")
-        %a{:href => "#"}
-          .large-4.medium-4.columns
-            .review
-              %h4 
-                Mauris ut purus tincidunt
-              %p
-                orem ipsum dolor sit amet, consectetur adipiscing elit. Donec at tincidunt nulla. Suspendisse in aliquet lacus. 
-              .author
-                Nome do Autor
-                = image_tag("user1.jpg")  
-        %a{:href => "#"}
-          .large-4.medium-4.columns
-            .review
-              %h4 
-                Mauris ut purus tincidunt
-              %p
-                orem ipsum dolor sit amet, consectetur adipiscing elit. Donec at tincidunt nulla. Suspendisse in aliquet lacus. 
-              .author
-                Nome do Autor
-                = image_tag("user1.jpg")              
+        .season-box2.hide 
+          %h1 
+            Temporada 2 
+            %span Episódio 2 - A No-Rough-Stuff-Type Deal
+          %a{:href => "#"}
+            .large-4.medium-4.columns
+              .review
+                %h4 
+                  Mauris ut purus tincidunt
+                %p
+                  orem ipsum dolor sit amet, consectetur adipiscing elit. Donec at tincidunt nulla. Suspendisse in aliquet lacus. 
+                  %span Leia mais 
+                .author
+                  Nome do Autor
+                  = image_tag("user1.jpg")
+          %a{:href => "#"}
+            .large-4.medium-4.columns
+              .review
+                %h4 
+                  Mauris ut purus tincidunt
+                %p
+                  orem ipsum dolor sit amet, consectetur adipiscing elit. Donec at tincidunt nulla. Suspendisse in aliquet lacus. 
+                .author
+                  Nome do Autor
+                  = image_tag("user1.jpg")  
+          %a{:href => "#"}
+            .large-4.medium-4.columns
+              .review
+                %h4 
+                  Mauris ut purus tincidunt
+                %p
+                  orem ipsum dolor sit amet, consectetur adipiscing elit. Donec at tincidunt nulla. Suspendisse in aliquet lacus. 
+                .author
+                  Nome do Autor
+                  = image_tag("user1.jpg")              
                 
                   
       
 
-    :javascript
-      $('select.div-toggler').change(function(){
-          var target = $(this).data('target');
-          $(target).children().addClass('hide');
-          var show = $("option:selected", this).data('show');
-          $(show).removeClass('hide');
-      });
-      $("#select1").change(function() { 
-      if($(this).data('options') == undefined){
-          /*Taking an array of all options-2 and kind of embedding it on the select1*/
-          $(this).data('options',$('#select2 option').clone());
-          } 
-      var id = $(this).val();
-      var options = $(this).data('options').filter('[value=' + id + ']');
-      $('#select2').html(options);
-      });
+      :javascript
+        $('select.div-toggler').change(function(){
+            var target = $(this).data('target');
+            $(target).children().addClass('hide');
+            var show = $("option:selected", this).data('show');
+            $(show).removeClass('hide');
+        });
+        $("#select1").change(function() { 
+        if($(this).data('options') == undefined){
+            /*Taking an array of all options-2 and kind of embedding it on the select1*/
+            $(this).data('options',$('#select2 option').clone());
+            } 
+        var id = $(this).val();
+        var options = $(this).data('options').filter('[value=' + id + ']');
+        $('#select2').html(options);
+        });
 
         
         
